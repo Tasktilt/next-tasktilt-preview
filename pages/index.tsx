@@ -5,6 +5,10 @@ import Header from '../components/Header'
 import Subscribe from '../components/Subscribe'
 import styles from '../styles/Home.module.scss'
 
+// Relative source imports for the next/image components.
+import cover from './../public/assets/screenshot-large.png'
+import image from './../public/assets/screenshot-small.png'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -23,10 +27,10 @@ export default function Home() {
         </span>
         <Subscribe />
         <span className={styles.main__cover}>
-          <Image alt='screenshot' height={1600} src='/../public/assets/screenshot-large.png' width={2000} />
+          <Image alt='screenshot' height={1600} src={cover} width={2000} />
         </span>
         <span className={styles.main__image}>
-          <Image alt='screenshot' height={1200} src='/../public/assets/screenshot-small.png' width={1600} />  
+          <Image alt='screenshot' height={1200} src={image} width={1600} />  
         </span>
         <h1>Get It All Together, Everything.</h1>
         <span className={styles.main__explainer}>
