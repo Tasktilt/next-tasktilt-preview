@@ -1,0 +1,77 @@
+.main {
+  align-items: center;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  text-align: center;
+
+  h1 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 1.4rem;
+    max-width: (100% * (10/14));
+  }
+
+  > span {
+    max-width: (100% * (10/14));
+  }
+}
+
+.main__explainer {
+  line-height: 1.8rem;
+  max-width: 640px;
+
+  p {
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    padding: 0.4rem 0;
+  }
+}
+
+.main__image {
+  display: none;
+}
+
+.main__subtitles {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    margin-bottom: 0.4rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .main {
+    align-items: flex-start;
+    padding: 0 1rem 2rem;
+
+    h1 {
+      font-size: 32px;
+      max-width: 100%;
+    }
+
+    h3 {
+      font-size: 0.875rem;
+    }
+
+    :is(h1, h2, h3, h4, h5, h6),
+    p {
+      text-align: left;
+    }
+
+    > span {
+      max-width: 100%;
+    }
+  }
+
+  .main__cover {
+    display: none;
+  }
+
+  .main__image {
+    display: flex;
+    margin: 3rem 0;
+  }
+}

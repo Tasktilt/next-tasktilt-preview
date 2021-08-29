@@ -1,0 +1,37 @@
+.footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem 2rem 6rem;
+
+  p {
+    font-size: 14px;
+    margin-bottom: 0.4rem;
+    text-align: end;
+
+    &:last-child {
+      font-style: italic;
+    }
+  }
+
+  svg {
+    height: 72px;
+    width: 72px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footer {
+    align-items: center;
+    flex-direction: column;
+    padding: 1.6rem 1rem 6rem;
+
+    p {
+      text-align: center;
+    }
+
+    span {
+      margin-top: 1rem;
+    }
+  }
+}
