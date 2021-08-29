@@ -27,10 +27,10 @@ export default function Home() {
         </span>
         <Subscribe />
         <span className={styles.main__cover}>
-          <Image alt='screenshot' height={1600} placeholder='blur' src={cover} width={2000} />
+          <Image alt='screenshot' height={1600} src={cover} width={2000} />
         </span>
         <span className={styles.main__image}>
-          <Image alt='screenshot' height={1200} placeholder='blur' src={image} width={1600} />  
+          <Image alt='screenshot' height={1200} src={image} width={1600} />  
         </span>
         <h1>Get It All Together, Everything.</h1>
         <span className={styles.main__explainer}>
