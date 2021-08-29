@@ -10,7 +10,7 @@ export default function Subscribe() {
             <span>
                 <p>Want to support the project?</p>
                 <Anchor href='https://www.buymeacoffee.com/SanderVreeken'>
-                    <p>Click here to but me a coffee.</p>
+                    <p>Click here to buy me a coffee.</p>
                 </Anchor>
             </span>
         </span>
