@@ -18,6 +18,11 @@
   }
 }
 
+.main__cover,
+.main__image {
+  margin: 3rem 0;
+}
+
 .main__explainer {
   line-height: 1.8rem;
   max-width: 640px;
@@ -72,6 +77,5 @@
 
   .main__image {
     display: flex;
-    margin: 3rem 0;
   }
 }
