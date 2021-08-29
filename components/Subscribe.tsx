@@ -15,8 +15,8 @@ export default function Subscribe() {
             if (response) {
                 console.log(response)
             }
-        } catch(error) {
-            console.log(error!.response.errors[0].message)
+        } catch(error: any) {
+            console.log(error.response.errors[0].message)
         }
     }
 
